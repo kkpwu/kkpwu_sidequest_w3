@@ -1,28 +1,29 @@
 ## Project Title
 
-GBDA302 Week 3 Example 1: Instructions Screen with Back button
+GBDA302 Week 3 Sidequest 3: Quick Thinking
 
 ---
 
 ## Authors
 
-Karen Cochrane and David Han
+Karen Wu
 
 ---
 
 ## Description
 
-This p5.js project demonstrates a simple multi-screen game structure using a state-based approach. The example includes a start screen, an instructions screen with a back button, a basic game screen, and win/lose outcome screens. The focus is on showing how to separate screens into different files, route input based on the current game state, and design simple UI elements such as buttons and keyboard controls.
+This project is a multi-screen game built with the **p5.js library**, utilizing a state-based approach to manage interactive storytelling. The codebase is built upon the professors-provided framework for scene management, which was extended to include custom health and win-streak mechanics.
+
+Inspired by the minimalist tension of _Dispatch_, the game challenges players to maintain a streak of 3 consecutive wins to succeed. It features a persistent Health Bar and a win-tracking system that resets upon failure, emphasizing the "quick thinking" required to navigate different game states across multiple JavaScript files.
 
 ---
 
 ## Learning Goals
 
-- Understand how to manage multiple game states using a shared currentScreen variable
-- Practice separating code across multiple files for readability and maintenance
-- Implement clickable and keyboard-accessible UI buttons
-- Learn how to route draw(), mousePressed(), and keyPressed() logic based on the active screen
-- Build a basic instructions screen with a functional back button
+- Practice separating code across multiple files for readability and maintenance.
+- Implement clickable UI elements and timed challenges.
+- Learn how to route `draw()`, `mousePressed()`, and `keyPressed()` logic based on the active game state.
+- Design and implement a dynamic Health Bar UI using global variables.
 
 ---
 
@@ -34,6 +35,6 @@ N/A
 
 ## GenAI
 
-The code was written by Dr. Karen Cochrane but she used GenAI to write the comments.
+The core logic for the health bar, consecutive win system, and scene transition debugging was developed by Karen Wu with assistance from GenAi. AI helped refine the logic for Scene 2 and the global state handling in `sketch.js`.
 
 ---
